@@ -6,7 +6,7 @@
     <script type="text/javascript">
         $(function(){
             $(document).on('click', 'button', function(){
-                $('.text').html("Teste Action");
+                $('.text').html("<hr>Teste Deploy");
             });
         });
     </script>
