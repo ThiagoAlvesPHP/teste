@@ -14,7 +14,7 @@
     
 </head>
 <body>
-    <div class="img">
+    <div class="container-fluid">
         <img class="img img-responsive" src="assets/image/1.jpg" alt="Exemplo de site" srcset=""> 
     </div>       
 </body>
