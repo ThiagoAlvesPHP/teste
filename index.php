@@ -3,16 +3,19 @@
 <head>
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script type="text/javascript">
         $(function(){
-            $(document).on('click', 'button', function(){
-                $('.text').html("<hr>Teste Deploy");
-            });
+            let v = parseFloat('1000.50');
+
+            $('div').html(v.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) );
         });
     </script>
+    
 </head>
 <body>
-    <button>Click</button>
-    <div class="text"></div>
+        
+    <div></div>    
+
 </body>
 </html>
